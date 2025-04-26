@@ -9,7 +9,6 @@ from sklearn.linear_model import LinearRegression
 from sklearn.metrics import mean_squared_error
 from sklearn.preprocessing import LabelEncoder
 from sklearn.impute import SimpleImputer
-
 from pandas_profiling import ProfileReport
 import streamlit.components.v1 as components
 from ydata_profiling import ProfileReport
