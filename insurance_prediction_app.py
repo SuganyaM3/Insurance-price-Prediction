@@ -1,9 +1,3 @@
-!pip install streamlit scikit-learn
-!npm install localtunnel
-!pip install markupsafe==2.0.1
-!pip install --upgrade markupsafe Jinja2
-!pip install pandas-profiling
-!pip install ydata_profiling
 import streamlit as st
 import pandas as pd
 import numpy as np
