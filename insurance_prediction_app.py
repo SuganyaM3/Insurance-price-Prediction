@@ -22,7 +22,7 @@ st.markdown("""
 col1, col2, col3 = st.columns([1, 2, 1])
 
 with col2:  # Center column
-    st.image("/content/img.jpg", caption="Insurance charges prediction", width=300)
+    st.image("img.jpg", caption="Insurance charges prediction", width=300)
 # File uploader for users to upload their own dataset
 uploaded_file = st.file_uploader('Upload your insurance data CSV', type='csv')
 
